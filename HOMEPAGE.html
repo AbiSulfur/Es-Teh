@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Milky Tea</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Arial', sans-serif;
+        }
+        header {
+            display: flex;
+            align-items: center;
+            padding: 10px 20px;
+            background-color: #ffffff;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        header .logo img {
+            height: 55px;
+            margin-right: 20px;
+        }
+        header nav a {
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
+            font-size: 20px;
+            font-family: "Sour Gummy", sans-serif;
+            margin: 30px;
+            transition: color 0.3s ease;
+        }
+
+        header nav a:hover {
+            color: #1b6953;
+        }
+
+        .main-banner {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #024e38;
+            color: white;
+        }
+        .main-banner .text {
+            max-width: 50%;
+            padding-left: 30px;
+            text-align: center;
+            font-family: "Sour Gummy", sans-serif;
+        }
+        .main-banner h1 {
+            font-size: 50px;
+            margin-bottom: 0;
+        }
+        .main-banner p {
+            font-size: 30px;
+            margin-right: 10px;
+        }
+        .main-banner .images img {
+            max-width: 700px;
+            margin-left: 10px;
+        }
+        .best-seller {
+            text-align: center;
+            padding: 20px;
+        }
+        .best-seller h2 {
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+        .products {
+            display: flex;
+            justify-content: center;
+            gap: 200px;
+        }
+        .products .product {
+            text-align: center;
+            border-radius: 10px;
+            padding: 15px;
+            flex: 1;
+            max-width: 200px;
+        }
+        .products .product img {
+            max-width: 100%;
+            border-radius: 5px;
+            margin-bottom: 10px;
+            
+        }
+        .products .matcha { 
+            background-color: #b7c142; 
+        }
+        .products .lemon { 
+            background-color: #f3cc20; 
+        }
+        .products .moca { 
+            background-color: #e5a562; 
+        }
+        .products h3 {
+            font-size: 18px;
+        }
+        .products p {
+            font-size: 14px;
+            margin: 5px 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="gambar/Logo.png" alt="Logo">
+        </div>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#menu">Menu</a>
+        </nav>
+    </header>
+    <section class="main-banner">
+        <div class="text">
+            <h1><b>Milk Tea</b></h1>
+            <p>Nikmati hari yang lebih lembut dan manis bersama Milk Tea</p>
+        </div>
+        <div class="images">
+            <img src="gambar/Gambar Produk 1.png" alt="Produk 1">
+        </div>
+    </section>
+    <section class="best-seller">
+        <h2>PRODUK BEST SELLER</h2>
+        <div class="products">
+            <div class="product matcha">
+                <img src="gambar/Desain_tanpa_judul__5_-removebg-preview.jpg" alt="Matcha Blend">
+                <h3>Matcha Blend</h3>
+                <p>Nikmati hari yang seimbang dan tenang bersama Matcha</p>
+            </div>
+            <div class="product lemon">
+                <img src="gambar/Desain_tanpa_judul__5_-removebg-preview.png" alt="Lemon Tea">
+                <h3>Lemon Tea</h3>
+                <p>Lebih Cerah, Lebih Segar, Bersama Lemon Tea</p>
+            </div>
+            <div class="product moca">
+                <img src="gambar/Desain_tanpa_judul__6_-removebg-preview.png" alt="Moca Tea">
+                <h3>Moca Tea</h3>
+                <p>Nikmati Kehangatan Harimu Bersama Moca Tea</p>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
